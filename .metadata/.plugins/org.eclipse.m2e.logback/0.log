@@ -548,3 +548,4 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact commons-dbcp:
 2026-06-01 15:45:36,667 [Worker-67: Launching cardManagementService] INFO  o.eclipse.m2e.core.internal.Bundles - 	Entry: C:\Users\nadka\Downloads\eclipse-dsl-2023-12-R-win32-x86_64\eclipse\plugins\com.google.guava.failureaccess_1.0.2.jar
 2026-06-01 15:45:36,669 [Worker-67: Launching cardManagementService] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "C:\CMS\UI and Backend code\cardManagementService":
 2026-06-01 15:45:36,669 [Worker-67: Launching cardManagementService] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dmaven.test.skip=true -DskipTests -Dstyle.color=always clean install
+2026-06-09 12:49:33,843 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
