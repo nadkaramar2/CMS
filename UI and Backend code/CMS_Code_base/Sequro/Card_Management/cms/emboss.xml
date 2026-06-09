@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<emboss>
+
+    <element>
+        <id>1</id>
+        <length>1</length>
+        <type>S</type>
+        <value>$</value>
+    </element>
+	
+	<element>
+        <id>2</id>
+        <length>4</length>
+        <type>D</type>
+        <value>SUBSTR(EMCARD,0,4)</value>
+    </element>
+	
+	<element>
+        <id>3</id>`
+        <length>1</length>
+        <type>S</type>
+        <value> </value>
+    </element>
+	
+	<element>
+        <id>4</id>
+        <length>4</length>
+        <type>D</type>
+        <value>SUBSTR(EMCARD,4,8)</value>
+    </element>
+	
+	<element>
+        <id>5</id>
+        <length>1</length>
+        <type>S</type>
+        <value> </value>
+    </element>
+	
+	<element>
+        <id>6</id>
+        <length>4</length>
+        <type>D</type>
+        <value>SUBSTR(EMCARD,8,12)</value>
+    </element>
+	
+	<element>
+        <id>7</id>
+        <length>1</length>
+        <type>S</type>
+        <value> </value>
+    </element>
+	
+	<element>
+        <id>8</id>
+        <length>4</length>
+        <type>D</type>
+        <value>SUBSTR(EMCARD,12,16)</value>
+    </element>
+	
+	<element>
+        <id>9</id>
+        <length>1</length>
+        <type>S</type>
+        <value>\t</value>
+    </element>
+					
+				
+	<element>
+        <id>10</id>
+        <length>1</length>
+        <type>S</type>
+        <value>*</value>
+    </element>
+	
+	<element>
+        <id>11</id>
+        <length>30</length>
+        <type>D</type>
+        <value>EMDNAM</value>
+		<paddingType>R</paddingType>
+		<paddingvalue> </paddingvalue>
+    </element>
+	
+	<element>
+        <id>12</id>
+        <length>1</length>
+        <type>S</type>
+        <value>#</value>
+    </element>
+	
+	<element>
+        <id>13</id>
+        <length>5</length>
+        <type>D</type>
+        <value>ACDATE</value>
+    </element>
+	
+	<element>
+        <id>14</id>
+        <length>3</length>
+        <type>S</type>
+        <value> </value>
+    </element>
+	
+	<element>
+        <id>15</id>
+        <length>5</length>
+        <type>D</type>
+        <value>EXDATE</value>
+    </element>
+	
+	<element>
+        <id>16</id>
+        <length>1</length>
+        <type>S</type>
+        <value>\t</value>
+    </element>
+	
+	<element>
+        <id>17</id>
+        <length>3</length>
+        <type>D</type>
+        <value>CCV2</value>
+    </element>
+	
+	<element>
+        <id>18</id>
+        <length>1</length>
+        <type>S</type>
+        <value>"</value>
+    </element>
+	
+	<element>
+        <id>19</id>
+        <length>8</length>
+        <type>D</type>
+        <value>ANO</value>
+    </element>
+	
+	<element>
+        <id>20</id>
+        <length>1</length>
+        <type>S</type>
+        <value>"</value>
+    </element>
+	
+	<element>
+        <id>21</id>
+        <length>1</length>
+        <type>S</type>
+        <value>%</value>
+    </element>
+	
+	<element>
+        <id>22</id>
+        <length>1</length>
+        <type>S</type>
+        <value>B</value>
+    </element>
+	
+	<element>
+        <id>23</id>
+        <length>16</length>
+        <type>D</type>
+        <value>EMCARD</value>
+    </element>
+	
+	<element>
+        <id>24</id>
+        <length>1</length>
+        <type>S</type>
+        <value>^</value>
+    </element>
+	
+	<element>
+        <id>25</id>
+        <length>25</length>
+        <type>D</type>
+        <value>EMCNAM</value>
+		<paddingType>R</paddingType>
+		<paddingvalue> </paddingvalue>
+    </element>
+	
+	<element>
+        <id>26</id>
+        <length>1</length>
+        <type>S</type>
+        <value>/</value>
+    </element>
+	
+	<element>
+        <id>27</id>
+        <length>1</length>
+        <type>S</type>
+        <value>^</value>
+    </element>
+	
+	<element>
+        <id>28</id>
+        <length>2</length>
+        <type>D</type>
+        <value>EXYY</value>
+    </element>
+	
+	<element>
+        <id>29</id>
+        <length>2</length>
+        <type>D</type>
+        <value>EXMM</value>
+    </element>
+	
+	<element>
+        <id>30</id>
+        <length>3</length>
+        <type>D</type>
+        <value>EMDSER</value>
+		<paddingType>R</paddingType>
+		<paddingvalue> </paddingvalue>
+    </element>
+	
+	<element>
+        <id>31</id>
+        <length>3</length>
+        <type>D</type>
+        <value>CVV1</value>
+    </element>
+		
+	<element>
+        <id>32</id>
+        <length>12</length>
+        <type>D</type>
+        <value>EMDANO</value>
+    </element>	
+	
+	<element>
+        <id>33</id>
+        <length>12</length>
+        <type>D</type>
+        <value>EMDAKNO</value>
+    </element>	
+	
+	<element>
+        <id>34</id>
+        <length>1</length>
+        <type>S</type>
+        <value>?</value>
+    </element>
+	
+	<element>
+        <id>35</id>
+        <length>1</length>
+        <type>S</type>
+        <value> </value>
+    </element>
+	
+	<element>
+        <id>36</id>
+        <length>1</length>
+        <type>S</type>
+        <value>;</value>
+    </element>
+	
+	<element>
+        <id>37</id>
+        <length>16</length>
+        <type>D</type>
+        <value>EMCARD</value>
+    </element>
+	
+	<element>
+        <id>38</id>
+        <length>1</length>
+        <type>S</type>
+        <value>=</value>
+    </element>
+	
+	<element>
+        <id>39</id>
+        <length>2</length>
+        <type>D</type>
+        <value>EXYY</value>
+    </element>
+	
+	<element>
+        <id>40</id>
+        <length>2</length>
+        <type>D</type>
+        <value>EXMM</value>
+    </element>
+	
+	<element>
+        <id>41</id>
+        <length>3</length>
+        <type>D</type>
+        <value>EMDSER</value>
+		<paddingType>R</paddingType>
+		<paddingvalue> </paddingvalue>
+    </element>
+	
+	<element>
+        <id>42</id>
+        <length>3</length>
+        <type>D</type>
+        <value>CVV1</value>
+    </element>
+	
+	<element>
+        <id>43</id>
+        <length>10</length>
+        <type>D</type>
+        <value>DDATA</value>
+    </element>
+	
+	<element>
+        <id>44</id>
+        <length>1</length>
+        <type>S</type>
+        <value>?</value>
+    </element>
+	
+	<element>
+        <id>45</id>
+        <length>1</length>
+        <type>S</type>
+        <value> </value>
+    </element>
+	
+	<element>
+        <id>46</id>
+        <length>3</length>
+        <type>D</type>
+        <value>ICVV</value>
+    </element>
+	
+</emboss>
+

@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+
+	<!-- Base Definition -->
+	<definition name="base-definition"
+		template="/WEB-INF/resources/jsp/tiles/layouts/defaultLayout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/resources/jsp/tiles/template/defaultHeader.jsp" />
+		<put-attribute name="menu"
+			value="/WEB-INF/resources/jsp/tiles/template/defaultMenu.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/resources/jsp/tiles/template/defaultFooter.jsp" />
+	</definition>
+
+	<!-- Home Page -->
+	
+	<definition name="resetPassword" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/resetPassword.jsp" />
+	</definition>
+	
+	<definition name="home" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/home.jsp" />
+	</definition>
+
+
+
+	<definition name="addClientForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addClientForm.jsp" />
+	</definition>
+
+	<definition name="updateClientForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/updateClientForm.jsp" />
+	</definition>
+
+	<definition name="addEmbossingForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addEmbossingForm.jsp" />
+	</definition>
+
+	<definition name="addServiceForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addServiceForm.jsp" />
+	</definition>
+
+	<definition name="instantCardsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/instantCardsForm.jsp" />
+	</definition>
+
+	<definition name="updateInstantCardsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/updateInstantCardsForm.jsp" />
+	</definition>
+
+
+
+	<definition name="instantAccountCreation"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/InstantAccountCreation.jsp" />
+	</definition>
+
+
+
+	<definition name="addInstantAccountCreation"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/InstantAccountCreation.jsp" />
+	</definition>
+
+	<definition name="updateInstantAccountForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/updateInstantAccountForm.jsp" />
+	</definition>
+
+
+
+	<!-- 403 Page (page not found) -->
+	<definition name="403" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/403.jsp" />
+	</definition>
+
+	<!-- Add Institution Page -->
+	<definition name="addInstForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addInstForm.jsp" />
+	</definition>
+
+	<!-- View Institution Page -->
+	<definition name="viewInstForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/viewInstForm.jsp" />
+	</definition>
+
+	<!-- Edit Institution Page -->
+	<definition name="editInstForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/editInstForm.jsp" />
+	</definition>
+
+	<!-- Edit Institution Details Page -->
+	<definition name="editInstDetails" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/editInstDetails.jsp" />
+	</definition>
+
+	<!-- Approve Institution Page -->
+	<definition name="approveInstForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/approveInstForm.jsp" />
+	</definition>
+
+	<!-- Add User Page -->
+	<definition name="addUserForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addUserForm.jsp" />
+	</definition>
+
+	<!-- Approve User Page -->
+	<definition name="approveUserForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/approveUserForm.jsp" />
+	</definition>
+
+	<!-- View User Page -->
+	<definition name="viewUserForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewUserForm.jsp" />
+	</definition>
+
+	<!-- Edit User Page -->
+	<definition name="editUserForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/editUserForm.jsp" />
+	</definition>
+
+	<!-- Edit User Details Page -->
+	<definition name="editUserDetails" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/editUserDetails.jsp" />
+	</definition>
+
+	<definition name="clientDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/clientDetails.jsp" />
+	</definition>
+
+	<definition name="cardDetailsForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardDetailsForm.jsp" />
+	</definition>
+
+	<definition name="documentDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/documentDetailsForm.jsp" />
+	</definition>
+
+	<definition name="embossConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/embossConfigForm.jsp" />
+	</definition>
+
+	<definition name="ncmcServiceConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/ncmcServiceConfigForm.jsp" />
+	</definition>
+
+	<definition name="addGroupForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addGroupForm.jsp" />
+	</definition>
+
+	<definition name="accountDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountDetailsForm.jsp" />
+	</definition>
+
+	<definition name="addressDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addressDetailsForm.jsp" />
+	</definition>
+
+	<definition name="cardDetails" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardLimitUpdate.jsp" />
+	</definition>
+
+	<definition name="cardStatus" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardStatus.jsp" />
+	</definition>
+
+	<definition name="addressDetails" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addressDetails.jsp" />
+	</definition>
+
+	<definition name="contactDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/contactDetailsForm.jsp" />
+	</definition>
+
+	<definition name="emailDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/emailDetailsForm.jsp" />
+	</definition>
+
+	<definition name="phoneDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/phoneDetailsForm.jsp" />
+	</definition>
+
+	<definition name="addAccountForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addAccountForm.jsp" />
+	</definition>
+
+
+
+	<!-- Account Type master config added by prashant T -->
+
+	<definition name="accountTypeMasterConfig"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountTypeConfiguration.jsp" />
+	</definition>
+
+
+	<!-- View Account Type master config added by prashant T -->
+
+	<definition name="viewAccountTypeConfig"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewAccountTypeConfig.jsp" />
+	</definition>
+
+	<definition name="viewAccountCreationForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewAccountCreation.jsp" />
+	</definition>
+
+	<definition name="viewInstantAccountForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewInstantAccountForm.jsp" />
+	</definition>
+
+	<definition name="editAccountCreation"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/editAccountCreationForm.jsp" />
+	</definition>
+
+
+	<definition name="editAccountCreationForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/editAccountCreationForm.jsp" />
+	</definition>
+
+
+
+	<definition name="binConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/binConfigForm.jsp" />
+	</definition>
+
+	<definition name="branchConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/branchConfigForm.jsp" />
+	</definition>
+
+	<definition name="branchCodeConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/branchCodeConfigForm.jsp" />
+	</definition>
+
+	<definition name="emailConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/emailConfigForm.jsp" />
+	</definition>
+
+	<definition name="countryConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/countryConfigForm.jsp" />
+	</definition>
+
+	<definition name="stateConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/stateConfigForm.jsp" />
+	</definition>
+
+	<!-- Add Role -->
+	<definition name="addRoleForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addRoleForm.jsp" />
+	</definition>
+
+	<!-- Edit Role -->
+	<definition name="editRoleForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/editRole.jsp" />
+	</definition>
+
+	<!-- Edit Selected Role -->
+	<definition name="showRole" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/editSelectedRole.jsp" />
+	</definition>
+
+	<!-- Approve Role -->
+	<definition name="approveRoleForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/approveRoleForm.jsp" />
+	</definition>
+
+	<!-- View Role -->
+	<definition name="viewRoleForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/viewRole.jsp" />
+	</definition>
+
+	<definition name="cardMgtForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardManagementForm.jsp" />
+	</definition>
+
+	<definition name="pinManagementForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pinManagement.jsp" />
+	</definition>
+
+	<definition name="plasticManagementForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/plasticManagementForm.jsp" />
+	</definition>
+
+	<definition name="cardPlasticConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardPlasticConfigForm.jsp" />
+	</definition>
+
+	<definition name="accountConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountConfigForm.jsp" />
+	</definition>
+
+	<definition name="addPinPrintingForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addPinPrintingForm.jsp" />
+	</definition>
+
+	<definition name="addBulkUploadForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addBulkUploadForm.jsp" />
+	</definition>
+
+	<definition name="addressConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addressConfigForm.jsp" />
+	</definition>
+
+	<definition name="phoneConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/phoneConfigForm.jsp" />
+	</definition>
+
+	<definition name="ncmcConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/ncmcConfigForm.jsp" />
+	</definition>
+
+	<definition name="keyConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/keyConfigForm.jsp" />
+	</definition>
+
+	<definition name="addMccConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addMccConfigForm.jsp" />
+	</definition>
+
+	<definition name="viewTxnForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewTxnForm.jsp" />
+	</definition>
+
+	<definition name="cardTypeConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardTypeConfigForm.jsp" />
+	</definition>
+
+	<definition name="cardTemplateConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardTemplateConfigForm.jsp" />
+	</definition>
+
+	<definition name="serviceManagementForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/serviceManagementForm.jsp" />
+	</definition>
+
+	<definition name="mccManagementForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/mccManagementForm.jsp" />
+	</definition>
+
+	<definition name="serviceManagement"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/serviceManagementForm.jsp" />
+	</definition>
+
+	<!-- View Selected Role -->
+	<definition name="viewRole" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/viewSelectedRole.jsp" />
+	</definition>
+
+	<!-- Login Attempt Report -->
+	<definition name="loginReport" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pages/loginReport.jsp" />
+	</definition>
+
+	<!-- View addTxnViewForm -->
+	<definition name="addTxnViewForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addTxnViewForm.jsp" />
+	</definition>
+
+	<!-- View addCardTokenConfigForm -->
+	<definition name="addCardTokenConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addCardTokenConfigForm.jsp" />
+	</definition>
+
+	<!-- View inventoryForm -->
+	<definition name="inventoryForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/inventoryForm.jsp" />
+	</definition>
+
+	<!-- View addMobileTokenConfigForm -->
+	<definition name="addMobileTokenConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addMobileTokenConfigForm.jsp" />
+	</definition>
+
+	<!-- View mobileTokenViewForm -->
+	<definition name="mobileTokenViewForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/mobileTokenViewForm.jsp" />
+	</definition>
+
+	<!-- Added by prashant T View accountCreationForm -->
+	<definition name="accountCreation" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountCreationForm.jsp" />
+	</definition>
+
+	<!-- Added by prashant T cardaccountLinkage Form -->
+	<definition name="cardAccountLinkage"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardAccountLinkage.jsp" />
+	</definition>
+
+	<!-- Added by prashant T View Card Account Linkage -->
+	<definition name="cardAccountLinkageView"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardAccountLinkageView.jsp" />
+	</definition>
+
+
+	<!-- Added by prashant T View Card Account Linkage -->
+	<definition name="viewAccountCreditLimitForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewAccountCreditLimit.jsp" />
+	</definition>
+
+
+	<!-- Added by prashant T MCC wise interest Form -->
+	<definition name="viewMccWiseInterestForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewMccWiseInterest.jsp" />
+	</definition>
+
+	<!-- Abhishek Tamrakar -->
+	<definition name="MccWiseInterestForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewMccWiseInterestForm.jsp" />
+	</definition>
+	<!-- Abhishek Tamrakar -->
+
+	<definition name="viewMccWiseInterestFormData"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewMccWiseInterestForm.jsp" />
+	</definition>
+
+	<!-- View isoConfigForm -->
+	<definition name="isoConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/isoConfigForm.jsp" />
+	</definition>
+
+	<!-- View connConfigForm -->
+	<definition name="connConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/connectionConfigForm.jsp" />
+	</definition>
+
+	<!-- View partConfigForm -->
+	<definition name="partConfigForm" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/participantConfigForm.jsp" />
+	</definition>
+
+	<!--Added by prashant T View chargeModuleConfig -->
+	<definition name="chargeModuleConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/chargeModuleConfigForm.jsp" />
+	</definition>
+
+	<definition name="viewAccountDetailsForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewAccountDetails.jsp" />
+	</definition>
+
+	<definition name="chargingConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/chargingConfigForm.jsp" />
+	</definition>
+
+
+	<definition name="addChargeType" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addChargeType.jsp" />
+	</definition>
+
+	<definition name="addChargeRelatedConfig"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addChargeRelatedConfig.jsp" />
+	</definition>
+
+	<definition name="viewRevolvingCreditCardForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewRevolvingCreditCardForm.jsp" />
+	</definition>
+
+	<definition name="viewAccountLinkageDetails"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewAccountLinkageDetails.jsp" />
+	</definition>
+
+	<definition name="accountStatementView"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountStatementView.jsp" />
+	</definition>
+
+	<!-- For adding load balance == by prashant -->
+
+	<definition name="viewLoadBalanceData"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/loadBalance.jsp" />
+	</definition>
+
+	<!--Added by prashant T View glAccountCreationForm -->
+	<definition name="glAccountCreationForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/glAccountCreationForm.jsp" />
+	</definition>
+	<!-- Report Configuration added by prashant -->
+
+	<!-- View transaction Report -->
+	<definition name="transactionData" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/transactionData.jsp" />
+	</definition>
+
+
+	<!-- View cardInventoryIssued Report -->
+	<definition name="cardInventoryIssued"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardInventoryIssued.jsp" />
+	</definition>
+
+
+
+	<!-- View cardInventoryPending Report -->
+	<definition name="cardInventoryPending"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardInventoryPending.jsp" />
+	</definition>
+
+	<!-- View cardHotListing Report -->
+	<definition name="cardHotListing" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cardHotListing.jsp" />
+	</definition>
+
+
+	<!-- View cardHotListingMIS Report -->
+	<definition name="hotListingMIS" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/hotListingMIS.jsp" />
+	</definition>
+
+	<!-- End Report Configuration by prashant T -->
+	<!-- Added By Sunny Soni for showing add wallet Screen Start -->
+	<definition name="addWalletConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addWalletConfigForm.jsp" />
+	</definition>
+
+	<!-- <definition name="addAccTypeWalletConfigForm" extends="base-definition"> -->
+	<definition name="accTypeWalletConfigForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addAccTypeWalletConfigForm.jsp" />
+	</definition>
+	<!-- Added By Sunny Soni for showing add wallet Screen End -->
+
+	<definition name="addBlockMccCfgForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/addBlockMccCfgForm.jsp" />
+	</definition>
+
+	<definition name="viewAccountStatementForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountStatement.jsp" />
+	</definition>
+
+	<definition name="viewInterestOutStanding"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewInterestOutStandingForm.jsp" />
+	</definition>
+
+	<definition name="linkedAccountWallet"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/linkedAccountWallet.jsp" />
+	</definition>
+
+	<definition name="glAccountLoadingForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/glAccountLoadingForm.jsp" />
+	</definition>
+
+
+	<!--Added by SagarK View glAccountStatementForm -->
+	<definition name="glAccountStatementForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/glAccountStatement.jsp" />
+	</definition>
+	<!-- END -->
+
+	<!-- Linked Pre Account added by prashant T Start -->
+	<definition name="linkedPreAccountForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/linkedPreAccountForm.jsp" />
+	</definition>
+
+	<definition name="viewVerifyKycForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewVerifyKycForm.jsp" />
+	</definition>
+	<!-- Linked Pre Account added by prashant T End -->
+
+	<!-- Added by Pankaj p View Customer ID Creation Start -->
+	<definition name="customerIdCreationConfig"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/customerIdCreationForm.jsp" />
+	</definition>
+	<!-- Added by Pankaj p View Customer ID Creation End -->
+
+	<!-- Added by prashant Tayde View Customer ID Creation Start -->
+	<definition name="viewCustomerAccountsDetails"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewCustomerAccounts.jsp" />
+	</definition>
+
+	<!-- Added by Pankaj p View Customer ID Creation Start -->
+	<definition name="viewCustomerAccounts"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/editCustomerAccounts.jsp" />
+	</definition>
+	<!-- Added by Pankaj p View Customer ID Creation End -->
+
+	<definition name="viewCustomerInfoDetails"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewCustomerInfoDetails.jsp" />
+	</definition>
+
+	<definition name="customerSearchView"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/customerSearchView.jsp" />
+	</definition>
+
+	<definition name="viewCustomerAccountDetails"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewCustomerAccountDetails.jsp" />
+	</definition>
+
+	<definition name="viewCustomerCardDetails"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewCustomerCardDetails.jsp" />
+	</definition>
+
+	<definition name="viewCustomerAccountStatement"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewCustomerAccountStatement.jsp" />
+	</definition>
+
+	<definition name="nonLinkedCustomerForAccountNo"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/linkedPreAccountForm.jsp" />
+	</definition>
+
+	<!--Abhishek T -->
+	<definition name="glCreationTable" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/ViewglAccountCreationForm.jsp" />
+	</definition>
+	<!-- END -->
+	<!-- Added by Abhishek T view Customer Details form start -->
+	<definition name="AccountTypeCategory"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/AccountTypeCategoryMaster.jsp" />
+	</definition>
+	<!-- Added by Abhishek T view Customer form end -->
+
+	<!-- Create Txn Type Creation By Sagark Start -->
+	<definition name="txnTypeCreation" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/transactionTypeConfig.jsp" />
+	</definition>
+	<!-- Create Txn Type Creation By Sagark End -->
+	
+	<!-- View Txn Type Creation By Prashant T Start -->
+	<definition name="viewtransactionTypes" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewtransactionTypes.jsp" />
+	</definition>
+	<!-- View Txn Type Creation By Prashant T End -->
+	
+	<definition name="editCustomerAccountsDetails"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/editCustomerAccountsDetails.jsp" />
+	</definition>
+
+	<definition name="chartsAccounts" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/chartsAccounts.jsp" />
+	</definition>
+
+	<!-- created by ankit for journal Transfer -->
+	<definition name="journalTransfer" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/journalTransfer.jsp" />
+	</definition>
+	<definition name="journalTransferGLToAcc"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/journalTransferGLToAcc.jsp" />
+	</definition>
+	<definition name="journalTransferAccToAcc"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/journalTransferAccToAcc.jsp" />
+	</definition>
+	<definition name="journalTransferAccToGL"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/journalTransferAccToGL.jsp" />
+	</definition>
+	<!-- created by ankit for journal Transfer end -->
+
+	<definition name="authoriseAccounts"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewJournalTransfer.jsp" />
+	</definition>
+
+	<!-- Changes added regarding to control account by Sunny Start -->
+	<!-- <definition name="createControlAccount" extends="base-definition"> 
+		<put-attribute name="title" /> <put-attribute name="body" value="/WEB-INF/resources/jsp/createControlAccount.jsp" 
+		/> </definition> -->
+
+	<!-- <definition name="transferInOut" extends="base-definition"> <put-attribute 
+		name="title" /> <put-attribute name="body" value="/WEB-INF/resources/jsp/transferInOut.jsp" 
+		/> </definition> -->
+	<!-- Changes added regarding to control account by Sunny End -->
+	<!-- Changes added regarding to control account by Pankaj Start -->
+	<definition name="controlAccount" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/controlAccount.jsp" />
+	</definition>
+	<definition name="transferInOut" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/transferInOut.jsp" />
+	</definition>
+	<!-- Changes added regarding to control account by Pankaj End -->
+
+	<!-- Changes added regarding to Reports related Start -->
+	<definition name="txnReportFrom" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/txnReportDetails.jsp" />
+	</definition>
+
+	<definition name="journalTransferReport"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/journalReportDetails.jsp" />
+	</definition>
+
+	<definition name="registerCustLinkedAccountForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/registerCustLinkedAccountForm.jsp" />
+	</definition>
+
+	<definition name="CashWithdrawalAgent"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/CashWithdrawalAgent.jsp" />
+	</definition>
+
+	<definition name="CashDepositAgent"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cashDepositAgent.jsp" />
+	</definition>
+
+	<definition name="viewRegisteredCustomers"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/registeredCustomers.jsp" />
+	</definition>
+	<!-- Changes added regarding to Reports related End -->
+
+	<definition name="searchTransaction"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/searchTransaction.jsp" />
+	</definition>
+
+	<definition name="approveUpgradeTier"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/approveUpgradeTier.jsp" />
+	</definition>
+
+	<!-- Added by ankit -->
+	<definition name="nubanTypeConfiguration"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/nubanTypeConfiguration.jsp" />
+	</definition>
+	<!-- Added by ankit end -->
+
+	<definition name="upgradeCustomerForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/upgradeCustomer.jsp" />
+	</definition>
+
+	<definition name="editAccountTypeMasterConfig"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/editAccountTypeConfiguration.jsp" />
+	</definition>
+
+	<definition name="closeAccount" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/CloseAccount.jsp" />
+	</definition>
+
+
+	<definition name="bulkTransfer" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/bulkTransfer.jsp" />
+	</definition>
+
+	<definition name="oneToManyAccounts"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/oneToManyAccounts.jsp" />
+	</definition>
+
+
+	<definition name="manyToOneAccount"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/manyToOneAccount.jsp" />
+	</definition>
+
+
+
+	<definition name="pendingForVerification"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/pendingForVerification.jsp" />
+	</definition>
+
+	<definition name="closeAccount" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/CloseAccount.jsp" />
+	</definition>
+
+	<definition name="accountClosureApproval"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountClosureApproval.jsp" />
+	</definition>
+
+	<definition name="accountClouserViewPage"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/accountClouserViewPage.jsp" />
+	</definition>
+
+
+	<definition name="glAccToManyAccounts"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/glAccToManyAccounts.jsp" />
+	</definition>
+	<definition name="manyToGLAccount" extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/manyToGLAccount.jsp" />
+	</definition>
+
+
+	<definition name="cashBackPointSetup"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/cashBackPointSetup.jsp" />
+	</definition>
+
+	<definition name="vatTypeConfiguration"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/vatTypeConfiguration.jsp" />
+	</definition>
+	
+<definition name="feeTypeConfiguration"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/feeTypeConfiguration.jsp" />
+	</definition>
+	
+	<definition name="viewTransactionLogs"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/viewTransactionLogs.jsp" />
+	</definition>
+
+
+	<definition name="generateKey"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/generateKey.jsp" />
+	</definition>
+	
+	
+	<definition name="reEnterKeyForm"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/reEnterKey.jsp" />
+	</definition>
+	
+	
+	<definition name="startStopLogging"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/startStopLogging.jsp" />
+	</definition>
+	
+	
+	<definition name="createCreditCardCustomerAccount"
+		extends="base-definition">
+		<put-attribute name="title" />
+		<put-attribute name="body"
+			value="/WEB-INF/resources/jsp/createCreditCardCustomerAccount.jsp" />
+	</definition>
+	
+	
+</tiles-definitions>

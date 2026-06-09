@@ -1,0 +1,3 @@
+2023-04-10 17:23:09 INFO  AppConfig:245 - Connection Txn: Socket[addr=localhost/127.0.0.1,port=3306,localport=50619]
+2023-04-10 17:23:09 INFO  AppConfig:275 - outTxnSocketConnection: java.io.DataOutputStream@1846579f
+2023-04-10 17:23:10 INFO  AppConfig:260 - inTxnSocketConnection: java.io.DataInputStream@4f5f6e45

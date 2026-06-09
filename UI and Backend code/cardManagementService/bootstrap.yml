@@ -1,0 +1,6 @@
+file:
+ emboss:
+  path: "/usr/local/tomcat/paths/cms/emboss"
+  databasename: ""
+  databasepassword:
+  

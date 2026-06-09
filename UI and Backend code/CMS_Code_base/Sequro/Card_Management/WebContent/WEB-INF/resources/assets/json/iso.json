@@ -1,0 +1,899 @@
+{
+   "@maxValidField": "128",
+   "isofield": [
+      {
+         "@id": "0",
+         "@name": "MESSAGE TYPE",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "1",
+         "@name": "BITMAP",
+         "@length": "16",
+         "@pad": "true"
+      },
+      {
+         "@id": "2",
+         "@name": "PAN",
+         "@length": "19",
+         "@pad": "true"
+      },
+      {
+         "@id": "3",
+         "@name": "PROCESSING CODE",
+         "@length": "6",
+         "@pad": "true"
+      },
+      {
+         "@id": "4",
+         "@name": "AMOUNT, TRANSACTION",
+         "@length": "12",
+         "@pad": "true"
+      },
+      {
+         "@id": "5",
+         "@name": "AMOUNT, SETTLEMENT",
+         "@length": "12",
+         "@pad": "true"
+      },
+      {
+         "@id": "6",
+         "@name": "AMOUNT, CARDHOLDER BILLING",
+         "@length": "12",
+         "@pad": "true"
+      },
+      {
+         "@id": "7",
+         "@name": "TRANSACTION DATE AND TIME",
+         "@length": "10",
+         "@pad": "true"
+      },
+      {
+         "@id": "8",
+         "@name": "AMOUNT, CARDHOLDER BILLING FEE",
+         "@length": "8",
+         "@pad": "true"
+      },
+      {
+         "@id": "9",
+         "@name": "CONVERSION RATE, SETTLEMENT",
+         "@length": "8",
+         "@pad": "true"
+      },
+      {
+         "@id": "10",
+         "@name": "CONVERSION RATE, CARDHOLDER BILLING",
+         "@length": "8",
+         "@pad": "true"
+      },
+      {
+         "@id": "11",
+         "@name": "STAN",
+         "@length": "6",
+         "@pad": "true"
+      },
+      {
+         "@id": "12",
+         "@name": "LOCAL TRANSACTION TIME",
+         "@length": "6",
+         "@pad": "true"
+      },
+      {
+         "@id": "13",
+         "@name": "LOCAL TRANSACTION DATE",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "14",
+         "@name": "EXPIRY DATE",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "15",
+         "@name": "SETTLEMENT DATE",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "16",
+         "@name": "CONVERSION DATE",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "17",
+         "@name": "CAPTURE DATE",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "18",
+         "@name": "MERCHANT TYPE(MCC)",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "19",
+         "@name": "ACQUIRING INSTITUTION COUNTRY CODE",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "20",
+         "@name": "PAN EXTENDED COUNTRY CODE",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "21",
+         "@name": "FORWARDING INSTITUTION COUNTRY CODE",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "22",
+         "@name": "POS ENTRY MODE",
+         "@length": "4",
+         "@pad": "true"
+      },
+      {
+         "@id": "23",
+         "@name": "CARD SEQUENCE NUMBER",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "24",
+         "@name": "NETWORK INTERNATIONAL IDENTIFIEER",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "25",
+         "@name": "POINT OF SERVICE CONDITION CODE",
+         "@length": "2",
+         "@pad": "true"
+      },
+      {
+         "@id": "26",
+         "@name": "POINT OF SERVICE PIN CAPTURE CODE",
+         "@length": "2",
+         "@pad": "true"
+      },
+      {
+         "@id": "27",
+         "@name": "AUTHORIZATION IDENTIFICATION RESP LEN",
+         "@length": "1",
+         "@pad": "true"
+      },
+      {
+         "@id": "28",
+         "@name": "TRANSACTION FEE AMOUNT",
+         "@length": "9",
+         "@pad": "true"
+      },
+      {
+         "@id": "29",
+         "@name": "SETTLEMENT FEE AMOUNT",
+         "@length": "9",
+         "@pad": "true"
+      },
+      {
+         "@id": "30",
+         "@name": "TRANSACTION PROCESSING FEE AMOUNT",
+         "@length": "9",
+         "@pad": "true"
+      },
+      {
+         "@id": "31",
+         "@name": "SETTLEMENT PROCESSING FEE AMOUNT",
+         "@length": "9",
+         "@pad": "true"
+      },
+      {
+         "@id": "32",
+         "@name": "ACQUIRER INST ID CODE",
+         "@length": "11",
+         "@pad": "true"
+      },
+      {
+         "@id": "33",
+         "@name": "FORWARDING INST ID CODE",
+         "@length": "11",
+         "@pad": "true"
+      },
+      {
+         "@id": "34",
+         "@name": "PAN EXTENDED",
+         "@length": "28",
+         "@pad": "true"
+      },
+      {
+         "@id": "35",
+         "@name": "TRACK 2 DATA",
+         "@length": "37",
+         "@pad": "true"
+      },
+      {
+         "@id": "36",
+         "@name": "TRACK 3 DATA",
+         "@length": "104",
+         "@pad": "true"
+      },
+      {
+         "@id": "37",
+         "@name": "RETRIEVAL REFERENCE NUMBER",
+         "@length": "12",
+         "@pad": "true"
+      },
+      {
+         "@id": "38",
+         "@name": "AUTH RESPONSE",
+         "@length": "6",
+         "@pad": "true"
+      },
+      {
+         "@id": "39",
+         "@name": "RESPONSE CODE",
+         "@length": "2",
+         "@pad": "true"
+      },
+      {
+         "@id": "40",
+         "@name": "SERVICE RESTRICTION CODE",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "41",
+         "@name": "CARD ACCEPTOR TERMINAL IDENTIFICATION",
+         "@length": "8",
+         "@pad": "true"
+      },
+      {
+         "@id": "42",
+         "@name": "CARD ACCEPTOR ID CODE",
+         "@length": "15",
+         "@pad": "true"
+      },
+      {
+         "@id": "45",
+         "@name": "TRACK 1 DATA",
+         "@length": "76",
+         "@pad": "true"
+      },
+      {
+         "@id": "46",
+         "@name": "ADDITIONAL DATA - ISO",
+         "@length": "99",
+         "@pad": "true"
+      },
+      {
+         "@id": "47",
+         "@name": "ADDITIONAL DATA - NATIONAL",
+         "@length": "99",
+         "@pad": "true"
+      },
+      {
+         "@id": "48",
+         "@name": "ADDITIONAL DATA - PRIVATE",
+         "@length": "99",
+         "@pad": "true"
+      },
+      {
+         "@id": "49",
+         "@name": "TRANSACTION CURRENCY CODE",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "50",
+         "@name": "CURRENCY CODE, SETTLEMENT",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "51",
+         "@name": "CARDHOLDER BILLING CURRENCY CODE",
+         "@length": "3",
+         "@pad": "true"
+      },
+      {
+         "@id": "52",
+         "@name": "PIN DATA",
+         "@length": "8",
+         "@pad": "true"
+      },
+      {
+         "@id": "53",
+         "@length": "16",
+         "@name": "SECURITY RELATED CONTROL INFORMATION",
+         "@pad": "true"
+      },
+      {
+         "@id": "54",
+         "@length": "120",
+         "@name": "ADDITIONAL AMOUNTS"
+      },
+      {
+         "@id": "55",
+         "@length": "255",
+         "@name": "RESERVED ISO"
+      },
+      {
+         "@id": "56",
+         "@length": "255",
+         "@name": "RESERVED ISO"
+      },
+      {
+         "@id": "57",
+         "@length": "255",
+         "@name": "RESERVED NATIONAL"
+      },
+      {
+         "@id": "58",
+         "@length": "255",
+         "@name": "RESERVED NATIONAL"
+      },
+      {
+         "@id": "59",
+         "@length": "14",
+         "@name": "NATIONAL POS GEOGRAPHIC DATA"
+      },
+      {
+         "@id": "60",
+         "@name": "RESERVED PRIVATE",
+         "@length": "10",
+         "@pad": "true"
+      },
+      {
+         "@id": "61",
+         "@length": "36",
+         "@name": "RESERVED PRIVATE",
+         "@pad": "true"
+      },
+      {
+         "@id": "62",
+         "@length": "59",
+         "@name": "PAYMENT SERVICE FIELDS"
+      },
+      {
+         "@id": "63",
+         "@length": "255",
+         "@name": "SMS PRIVATE-USE FIELDS"
+      },
+      {
+         "@id": "64",
+         "@length": "8",
+         "@name": "MESSAGE AUTHENTICATION CODE FIELD"
+      },
+      {
+         "@id": "65",
+         "@length": "1",
+         "@name": "BITMAP, EXTENDED"
+      },
+      {
+         "@id": "66",
+         "@length": "1",
+         "@name": "SETTLEMENT CODE",
+         "@pad": "true"
+      },
+      {
+         "@id": "67",
+         "@length": "2",
+         "@name": "EXTENDED PAYMENT CODE",
+         "@pad": "true"
+      },
+      {
+         "@id": "68",
+         "@length": "3",
+         "@name": "RECEIVING INSTITUTION COUNTRY CODE",
+         "@pad": "true"
+      },
+      {
+         "@id": "69",
+         "@length": "3",
+         "@name": "SETTLEMENT INSTITUTION COUNTRY CODE",
+         "@pad": "true"
+      },
+      {
+         "@id": "70",
+         "@length": "3",
+         "@name": "NETWORK MANAGEMENT INFORMATION CODE",
+         "@pad": "true"
+      },
+      {
+         "@id": "71",
+         "@length": "4",
+         "@name": "MESSAGE NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "72",
+         "@length": "4",
+         "@name": "MESSAGE NUMBER LAST",
+         "@pad": "true"
+      },
+      {
+         "@id": "73",
+         "@length": "6",
+         "@name": "DATE ACTION",
+         "@pad": "true"
+      },
+      {
+         "@id": "74",
+         "@length": "10",
+         "@name": "CREDITS NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "75",
+         "@length": "10",
+         "@name": "CREDITS REVERSAL NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "76",
+         "@length": "10",
+         "@name": "DEBITS NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "77",
+         "@length": "10",
+         "@name": "DEBITS REVERSAL NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "78",
+         "@length": "10",
+         "@name": "TRANSFER NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "79",
+         "@length": "10",
+         "@name": "TRANSFER REVERSAL NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "80",
+         "@length": "10",
+         "@name": "INQUIRIES NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "81",
+         "@length": "10",
+         "@name": "AUTHORIZATION NUMBER",
+         "@pad": "true"
+      },
+      {
+         "@id": "82",
+         "@length": "12",
+         "@name": "CREDITS, PROCESSING FEE AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "83",
+         "@length": "12",
+         "@name": "CREDITS, TRANSACTION FEE AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "84",
+         "@length": "12",
+         "@name": "DEBITS, PROCESSING FEE AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "85",
+         "@length": "12",
+         "@name": "DEBITS, TRANSACTION FEE AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "86",
+         "@length": "16",
+         "@name": "CREDITS, AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "87",
+         "@length": "16",
+         "@name": "CREDITS, REVERSAL AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "88",
+         "@length": "16",
+         "@name": "DEBITS, AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "89",
+         "@length": "16",
+         "@name": "DEBITS, REVERSAL AMOUNT",
+         "@pad": "true"
+      },
+      {
+         "@id": "90",
+         "@name": "ORIGINAL DATA ELEMENTS",
+         "@length": "42",
+         "@pad": "true"
+      },
+      {
+         "@id": "91",
+         "@length": "1",
+         "@name": "FILE UPDATE CODE"
+      },
+      {
+         "@id": "92",
+         "@length": "2",
+         "@name": "FILE SECURITY CODE"
+      },
+      {
+         "@id": "93",
+         "@length": "5",
+         "@name": "RESPONSE INDICATOR"
+      },
+      {
+         "@id": "94",
+         "@length": "7",
+         "@name": "SERVICE INDICATOR"
+      },
+      {
+         "@id": "95",
+         "@name": "REPLACEMENT AMOUNT",
+         "@length": "42",
+         "@pad": "true"
+      },
+      {
+         "@id": "96",
+         "@length": "8",
+         "@name": "MESSAGE SECURITY CODE"
+      },
+      {
+         "@id": "97",
+         "@length": "17",
+         "@name": "AMOUNT, NET SETTLEMENT",
+         "@pad": "true"
+      },
+      {
+         "@id": "98",
+         "@length": "25",
+         "@name": "PAYEE"
+      },
+      {
+         "@id": "99",
+         "@length": "11",
+         "@name": "SETTLEMENT INSTITUTION IDENT CODE",
+         "@pad": "true"
+      },
+      {
+         "@id": "100",
+         "@length": "11",
+         "@name": "RECEIVING INSTITUTION IDENT CODE",
+         "@pad": "true"
+      },
+      {
+         "@id": "101",
+         "@length": "17",
+         "@name": "FILE NAME"
+      },
+      {
+         "@id": "102",
+         "@length": "28",
+         "@name": "ACCOUNT IDENTIFICATION 1"
+      },
+      {
+         "@id": "103",
+         "@length": "28",
+         "@name": "ACCOUNT IDENTIFICATION 2"
+      },
+      {
+         "@id": "104",
+         "@length": "100",
+         "@name": "TRANSACTION DESCRIPTION"
+      },
+      {
+         "@id": "105",
+         "@length": "99",
+         "@name": "RESERVED ISO USE"
+      },
+      {
+         "@id": "106",
+         "@length": "99",
+         "@name": "RESERVED ISO USE"
+      },
+      {
+         "@id": "107",
+         "@length": "99",
+         "@name": "RESERVED ISO USE"
+      },
+      {
+         "@id": "108",
+         "@length": "99",
+         "@name": "RESERVED ISO USE"
+      },
+      {
+         "@id": "109",
+         "@length": "99",
+         "@name": "RESERVED ISO USE"
+      },
+      {
+         "@id": "110",
+         "@length": "99",
+         "@name": "RESERVED ISO USE"
+      },
+      {
+         "@id": "111",
+         "@length": "99",
+         "@name": "RESERVED ISO USE"
+      },
+      {
+         "@id": "112",
+         "@length": "99",
+         "@name": "RESERVED NATIONAL USE"
+      },
+      {
+         "@id": "113",
+         "@length": "99",
+         "@name": "RESERVED NATIONAL USE"
+      },
+      {
+         "@id": "114",
+         "@length": "99",
+         "@name": "RESERVED NATIONAL USE"
+      },
+      {
+         "@id": "115",
+         "@length": "24",
+         "@name": "ADDITIONAL TRACE DATA 1"
+      },
+      {
+         "@id": "116",
+         "@length": "99",
+         "@name": "RESERVED NATIONAL USE"
+      },
+      {
+         "@id": "117",
+         "@length": "99",
+         "@name": "RESERVED NATIONAL USE"
+      },
+      {
+         "@id": "118",
+         "@length": "99",
+         "@name": "INTRA-COUNTRY DATA"
+      },
+      {
+         "@id": "119",
+         "@length": "99",
+         "@name": "RESERVED NATIONAL USE"
+      },
+      {
+         "@id": "120",
+         "@length": "4",
+         "@name": "RESERVED PRIVATE USE",
+         "@pad": "true"
+      },
+      {
+         "@id": "121",
+         "@length": "11",
+         "@name": "ISSUING INSTITUTION IDENT CODE"
+      },
+      {
+         "@id": "122",
+         "@length": "13",
+         "@name": "REMAINING OPEN-TO-USE"
+      },
+      {
+         "@id": "123",
+         "@length": "29",
+         "@name": "ADDRESS VERIFICATION DATA"
+      },
+      {
+         "@id": "124",
+         "@length": "135",
+         "@name": "FREE-FORM TEXT-JAPAN"
+      },
+      {
+         "@id": "125",
+         "@length": "99",
+         "@name": "SUPPORTING INFORMATION"
+      },
+      {
+         "@id": "128",
+         "@length": "8",
+         "@name": "MAC 2"
+      }
+   ],
+   "isofieldpackager": [
+      {
+         "@id": "43",
+         "@name": "CARD ACCEPTOR LOCATION",
+         "@length": "40",
+         "@packager": "org.jpos.iso.packager.GenericSubFieldPackager",
+         "@emitBitmap": "false",
+         "@maxValidField": "3",
+         "isofield": [
+            {
+               "@id": "0",
+               "@name": "NOT PRESENT",
+               "@length": "0",
+               "@pad": "false"
+            },
+            {
+               "@id": "1",
+               "@name": "NAME",
+               "@length": "25",
+               "@pad": "false"
+            },
+            {
+               "@id": "2",
+               "@name": "CITY",
+               "@length": "13",
+               "@pad": "false"
+            },
+            {
+               "@id": "3",
+               "@name": "COUNTRY",
+               "@length": "2",
+               "@pad": "false"
+            }
+         ]
+      },
+      {
+         "@id": "44",
+         "@name": "ADDITIONAL RESPONSE DATA",
+         "@length": "25",
+         "@packager": "org.jpos.iso.packager.GenericSubFieldPackager",
+         "@emitBitmap": "false",
+         "@maxValidField": "10",
+         "isofield": [
+            {
+               "@id": "0",
+               "@name": "NOT PRESENT",
+               "@length": "0",
+               "@pad": "false"
+            },
+            {
+               "@id": "1",
+               "@name": "RESPONSE SOURCE/REASON CODE",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "2",
+               "@name": "AVS RESULT CODE",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "3",
+               "@name": "TVC RESULT CODE",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "4",
+               "@name": "CARD PRODUCT TYPE",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "5",
+               "@name": "CVV RESULT CODE",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "6",
+               "@name": "PACM DIVERSION LEVEL",
+               "@length": "2",
+               "@pad": "false"
+            },
+            {
+               "@id": "7",
+               "@name": "PACM DIVERSION REASON CODE",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "8",
+               "@name": "CARD AUTHENTICATION RESULT CODE",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "9",
+               "@name": "LA ADDITIONAL RESPONSE DATA",
+               "@length": "1",
+               "@pad": "false"
+            },
+            {
+               "@id": "10",
+               "@name": "CVV2 RESULT CODE",
+               "@length": "1",
+               "@pad": "false"
+            }
+         ]
+      },
+      {
+         "@id": "126",
+         "@name": "FIELD 126",
+         "@length": "255",
+         "@packager": "org.jpos.iso.packager.Base1SubFieldPackager",
+         "isofield": [
+            {
+               "@id": "0",
+               "@name": "Bit Map",
+               "@length": "16"
+            },
+            {
+               "@id": "1",
+               "@name": "Customer Name",
+               "@length": "25",
+               "@pad": "true"
+            },
+            {
+               "@id": "2",
+               "@name": "Customer Address",
+               "@length": "57",
+               "@pad": "true"
+            },
+            {
+               "@id": "3",
+               "@name": "Biller Address",
+               "@length": "57",
+               "@pad": "true"
+            },
+            {
+               "@id": "4",
+               "@name": "Biller Telephone Number",
+               "@length": "18",
+               "@pad": "true"
+            },
+            {
+               "@id": "5",
+               "@name": "Process By Date",
+               "@length": "6",
+               "@pad": "true"
+            },
+            {
+               "@id": "6",
+               "@name": "Cardholder Cert Serial Number",
+               "@length": "17",
+               "@pad": "true"
+            },
+            {
+               "@id": "7",
+               "@name": "Merchant Cert Serial Number",
+               "@length": "17",
+               "@pad": "true"
+            },
+            {
+               "@id": "8",
+               "@name": "Transaction ID",
+               "@length": "40",
+               "@pad": "true"
+            },
+            {
+               "@id": "9",
+               "@name": "TransStain",
+               "@length": "40",
+               "@pad": "true"
+            },
+            {
+               "@id": "10",
+               "@name": "CVV2 Request Data",
+               "@length": "6",
+               "@pad": "true"
+            }
+         ]
+      }
+   ]
+}

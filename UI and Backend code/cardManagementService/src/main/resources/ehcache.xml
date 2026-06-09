@@ -1,0 +1,71 @@
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ehcache.xsd" updateCheck="true"
+	monitoring="autodetect" dynamicConfig="true">
+
+	<diskStore path="java.io.tmpdir" />
+
+	<cache name="Cfg_Card_Template" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Participant" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Card_Type" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Bin" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Address_Type" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Phone_Type" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Email_Type" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Account_Type" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+	<cache name="Cfg_Status" maxEntriesLocalHeap="100"
+		maxEntriesLocalDisk="1000" eternal="false" timeToIdleSeconds="300"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LFU"
+		transactionalMode="off">
+		<persistence strategy="localTempSwap" />
+	</cache>
+
+
+</ehcache>
